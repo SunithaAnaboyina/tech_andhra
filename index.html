@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Andhra | Home</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <!-- Logo Image -->
+      <a href="/index.html" class="logo">
+        <img src="./techlogo.jpg" alt="Tech Andhra Logo" />
+      </a>
+
+      <!-- Navigation -->
+      <nav class="nav" id="nav-menu">
+        <button class="close-btn" id="close-btn">✖</button>
+        <ul class="nav-links">
+          <li><a href="/index.html" class="active">Home</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./industries.html">Industries</a></li>
+          <li><a href="./careers.html">Careers</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+ </nav>
+
+      <!-- Get Started Button -->
+      <a href="#" class="btn desktop-btn">Get Started</a>
+
+      <!-- Hamburger Icon for Mobile -->
+      <button class="hamburger" id="hamburger">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Welcome to <span>Tech Andhra 🚀</span></h1>
+      <p>
+        Your trusted partner in professional staffing solutions. We connect
+        exceptional talent with outstanding opportunities across multiple industries.
+      </p>
+      <div class="hero-buttons">
+        <a href="/services.html" class="btn primary">Explore Services →</a>
+        <!-- <a href="#" class="btn secondary">Contact Us</a> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Mission Section -->
+<section class="content-section">
+  <h2>Our Mission</h2>
+  <p>
+    At Tech Andhra, our mission is to exceed the expectations of both clients and candidates. 
+    By integrating cutting-edge technology into our proprietary Applicant Tracking System, 
+    we streamline every stage of the hiring cycle—delivering smarter, faster, and more 
+    effective recruitment solutions.
+  </p>
+</section>
+
+<!-- Our Expertise Section -->
+<section class="content-section">
+  <h2>Our Expertise</h2>
+  <p>
+    At Tech Andhra, our expertise lies in combining advanced technology with deep industry 
+    knowledge to deliver tailored recruitment and workforce solutions. From identifying 
+    top talent to streamlining hiring processes, we ensure organizations gain the right 
+    people, at the right time, with the right skills.
+  </p>
+</section>
+
+<!-- Call to Action Section -->
+<section class="cta-section">
+  <h2>Ready to Transform Your Business?</h2>
+  <p>Join hundreds of companies who trust Tech Andhra for their staffing needs.</p>
+  <a href="/contact.html" class="cta-btn">Contact Us Today</a>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Left: Logo & About -->
+    <!-- <div class="footer-about">
+      <h3>Tech Andhra 🚀</h3>
+      <p>
+        Empowering businesses with innovative staffing solutions and connecting 
+        top talent with exceptional opportunities across diverse industries.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div> -->
+    <div class="footer-about">
+  <h3>Tech Andhra 🚀</h3>
+  <p>
+    Empowering businesses with innovative staffing solutions and connecting 
+    top talent with exceptional opportunities across diverse industries.
+  </p>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/company/tech-andhra/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <!-- <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a> -->
+    <!-- <a href="https://facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i></a> -->
+  </div>
+</div>
+
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/industries.html">Industries</a></li>
+        <li><a href="/careers.html">Careers</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Our Services -->
+    <div class="footer-services">
+      <h4>Our Services</h4>
+      <ul>
+        <li><a href="#">Workforce Solutions</a></li>
+        <li><a href="#">Permanent Staffing</a></li>
+       
+        <li><a href="#">Contract-to-Hire</a></li>
+        <li><a href="#">Training Programs</a></li>
+        
+        
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h4>Contact Info</h4>
+      <p>Hi-Tech City, Hyderabad<br>Telangana, India - 500081</p>
+      <!-- <p>📞 +91 98765 43210<br>📞 +91 98765 43211</p> -->
+      <p>✉ info@techandhra.com<br>✉ careers@techandhra.com</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Copyright Bar -->
+<div class="footer-bottom">
+  <p>© 2025 Tech Andhra. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+</div>
+
+
+
+  <!-- Script for Mobile Nav -->
+  <script>
+const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("nav-menu");
+    const closeBtn = document.getElementById("close-btn");
+
+    hamburger.addEventListener("click", () => {
+      navMenu.classList.add("show");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      navMenu.classList.remove("show");
+    });
+  </script>
+</body>
+</html>

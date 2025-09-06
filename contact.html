@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | Tech Andhra</title>
+  <link rel="stylesheet" href="./contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+   <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <!-- Logo Image -->
+      <a href="#" class="logo">
+        <img src="/techlogo.jpg" alt="Tech Andhra Logo" />
+      </a>
+
+      <!-- Navigation -->
+      <nav class="nav" id="nav-menu">
+        <button class="close-btn" id="close-btn">✖</button>
+        <ul class="nav-links">
+          <li><a href="/index.html" class="active">Home</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="/industries.html">Industries</a></li>
+          <li><a href="/careers.html">Careers</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+ </nav>
+
+      <!-- Get Started Button -->
+      <a href="#" class="btn desktop-btn">Get Started</a>
+
+      <!-- Hamburger Icon for Mobile -->
+      <button class="hamburger" id="hamburger">
+        ☰
+      </button>
+    </div>
+  </header>
+
+
+<section class="contact-section" id="contact">
+  <div class="contact-container">
+    <h2>Get in Touch</h2>
+    <p>We’d love to hear from you! Fill out the form below and we’ll get back to you soon.</p>
+
+    <form class="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject *</label>
+        <input type="text" id="subject" placeholder="Enter subject" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea id="message" rows="5" placeholder="Write your message" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Left: Logo & About -->
+    <!-- <div class="footer-about">
+      <h3>Tech Andhra 🚀</h3>
+      <p>
+        Empowering businesses with innovative staffing solutions and connecting 
+        top talent with exceptional opportunities across diverse industries.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div> -->
+      <div class="footer-about">
+  <h3>Tech Andhra 🚀</h3>
+  <p>
+    Empowering businesses with innovative staffing solutions and connecting 
+    top talent with exceptional opportunities across diverse industries.
+  </p>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/company/tech-andhra/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <!-- <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a> -->
+    <!-- <a href="https://facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i></a> -->
+  </div>
+</div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+       <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/industries.html">Industries</a></li>
+        <li><a href="/careers.html">Careers</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Our Services -->
+    <div class="footer-services">
+      <h4>Our Services</h4>
+      <ul>
+       <li><a href="#">Workforce Solutions</a></li>
+        <li><a href="#">Permanent Staffing</a></li>
+       
+        <li><a href="#">Contract-to-Hire</a></li>
+        <li><a href="#">Training Programs</a></li>
+        
+        
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h4>Contact Info</h4>
+      <p>Hi-Tech City, Hyderabad<br>Telangana, India - 500081</p>
+      <!-- <p>📞 +91 98765 43210<br>📞 +91 98765 43211</p> -->
+      <p>✉ info@techandhra.com<br>✉ careers@techandhra.com</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Copyright Bar -->
+<div class="footer-bottom">
+  <p>© 2025 Tech Andhra. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+</div>
+
+
+
+
+
+
+   <!-- Script for Mobile Nav -->
+  <script>
+const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("nav-menu");
+    const closeBtn = document.getElementById("close-btn");
+
+    hamburger.addEventListener("click", () => {
+      navMenu.classList.add("show");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      navMenu.classList.remove("show");
+    });
+  </script>
+  </body>
+</html>
